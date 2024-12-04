@@ -1,0 +1,133 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="png\ban_do_1.png" />
+    <None Remove="png\ban_do_2.png" />
+    <None Remove="png\ban_do_3.png" />
+    <None Remove="png\check.png" />
+    <None Remove="png\dong_vat_1.png" />
+    <None Remove="png\dong_vat_2.png" />
+    <None Remove="png\dong_vat_3.png" />
+    <None Remove="png\go_1.png" />
+    <None Remove="png\go_2.png" />
+    <None Remove="png\go_3.png" />
+    <None Remove="png\hanh_chinh_1.png" />
+    <None Remove="png\hanh_chinh_2.png" />
+    <None Remove="png\hanh_chinh_3.png" />
+    <None Remove="png\hat_cay_1.png" />
+    <None Remove="png\hat_cay_2.png" />
+    <None Remove="png\hat_cay_3.png" />
+    <None Remove="png\he_thong_1.png" />
+    <None Remove="png\he_thong_2.png" />
+    <None Remove="png\he_thong_3.png" />
+    <None Remove="png\home_1.png" />
+    <None Remove="png\home_2.png" />
+    <None Remove="png\home_3.png" />
+    <None Remove="png\nguoi_dung_1.png" />
+    <None Remove="png\nguoi_dung_2.png" />
+    <None Remove="png\nguoi_dung_3.png" />
+    <None Remove="png\seach_1.png" />
+    <None Remove="png\seach_2.png" />
+    <None Remove="png\seach_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="png\ban_do_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\ban_do_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\ban_do_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\check.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\dong_vat_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\dong_vat_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\dong_vat_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\go_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\go_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\go_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\hanh_chinh_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\hanh_chinh_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\hanh_chinh_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\hat_cay_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\hat_cay_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\hat_cay_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\he_thong_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\he_thong_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\he_thong_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\home_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\home_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\home_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\nguoi_dung_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\nguoi_dung_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\nguoi_dung_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\seach_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\seach_2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png\seach_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+
+</Project>
